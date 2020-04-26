@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Browser" value="F"/>
+  <test name="Test2(failed)" preserve-order="true">
+    <parameter name="Browser" value="F"/>
+    <classes>
+      <class name="test.StepDefinitions.BookSite">
+        <methods>
+          <include name="Chapter1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.StepDefinitions.BookSite -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

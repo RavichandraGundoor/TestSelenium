@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Browser Opened<br>]]>
+    </line>
+    <line>
+      <![CDATA[Chapter 1 Link is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Mozilla Firefox Browser Opened<br>]]>
+    </line>
+    <line>
+      <![CDATA[Chapter 1 Link is clicked<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40341" started-at="2020-04-26T11:31:12Z" finished-at="2020-04-26T11:31:52Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="20386" started-at="2020-04-26T11:31:12Z" finished-at="2020-04-26T11:31:32Z">
+      <class name="test.StepDefinitions.BookSite">
+        <test-method status="PASS" signature="Chapter1(java.lang.String)[pri:0, instance:test.StepDefinitions.BookSite@27082746]" name="Chapter1" duration-ms="20335" started-at="2020-04-26T17:01:12Z" finished-at="2020-04-26T17:01:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Opened<br>]]>
+            </line>
+            <line>
+              <![CDATA[Chapter 1 Link is clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Chapter1 -->
+      </class> <!-- test.StepDefinitions.BookSite -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="19926" started-at="2020-04-26T11:31:32Z" finished-at="2020-04-26T11:31:52Z">
+      <class name="test.StepDefinitions.BookSite">
+        <test-method status="PASS" signature="Chapter1(java.lang.String)[pri:0, instance:test.StepDefinitions.BookSite@224aed64]" name="Chapter1" duration-ms="19926" started-at="2020-04-26T17:01:32Z" finished-at="2020-04-26T17:01:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Mozilla Firefox Browser Opened<br>]]>
+            </line>
+            <line>
+              <![CDATA[Chapter 1 Link is clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Chapter1 -->
+      </class> <!-- test.StepDefinitions.BookSite -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
